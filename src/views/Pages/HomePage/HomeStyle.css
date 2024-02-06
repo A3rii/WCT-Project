@@ -1,0 +1,265 @@
+.login-success {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 1rem;
+}
+
+.welcome-login {
+   font-size: 1.2rem;
+   margin-top: .5rem;
+}
+
+/*2.Search End*/
+
+
+
+
+
+/** Navbar */
+.nav-section {
+   height: 60rem;
+   background: url("./../../../assets/HomeImage/BlackCar.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+#main-car {
+   width: 100%;
+   height: auto;
+}
+
+
+
+/*Navbar end */
+
+/** 4.Main */
+.main {
+   font-family: 'Coda', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   color: var(--secondary);
+   row-gap: 4rem;
+   margin-top: 4rem;
+}
+
+.text-banner-1 {
+   font-size: 90px;
+   margin-left: 4rem;
+}
+
+.text-banner-2 {
+   font-size: 20px;
+   margin-left: 3rem;
+}
+
+.car-feature {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.find-car span {
+   font-size: 1rem;
+   padding: 5px;
+}
+
+.find-car i {
+   margin-top: 0.1rem;
+   padding: 0.3rem;
+}
+
+.car-feature {
+   column-gap: 5rem;
+   margin-top: 2rem;
+   font-size: 1.5rem;
+}
+
+.car-feature i {
+   color: var(--primary);
+}
+
+.brand-variety i,
+.time-efficiency i,
+.fast-support i,
+.warranty i {
+   margin: 1rem;
+}
+
+/* 4.Main end */
+
+/** 5.Brand Category */
+.brand-category {
+   text-align: center;
+   margin-top: 3rem;
+}
+
+.card-recommendation {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.discount-banner {
+   background-color: #ffcc00;
+   padding: 8px;
+   border-radius: 4px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.explore-recommend {
+   font-size: 2rem;
+   font-size: bold;
+   font-family: "Montserrat", sans-serif;
+
+}
+
+.discount-text {
+   font-weight: bold;
+}
+
+.discount-price {
+   color: #d9534f;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+/*5. End */
+
+/** 6.About Us */
+.about-us {
+   background-color: #F6F6F6;
+   border-radius: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10rem;
+   gap: 4rem;
+}
+
+.about-image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.about-image img {
+   width: 100%;
+}
+
+.header-name h2 {
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+.inforamtion {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10rem;
+   flex: 1;
+}
+
+.info-context {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.info-context p {
+   width: 85%;
+   font-size: 1.2rem;
+   text-align: justify;
+   margin-top: 1rem;
+}
+
+.readmore-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1.5rem;
+}
+
+/** 6.About Us Ends */
+
+
+/** 7.Process */
+
+.process {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   row-gap: 1rem;
+   margin-top: 8rem;
+}
+
+.flow-process {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 9rem;
+   margin-top: 2rem;
+   flex-wrap: wrap;
+}
+
+.text-process {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.text-process h2 {
+   font-size: 3 rem;
+   font-weight: bold;
+}
+
+.line-process {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   column-gap: 21rem;
+   margin: 3rem 0 0 2rem;
+   flex-wrap: wrap;
+
+}
+
+
+.location,
+.contact,
+.pay,
+.recieve {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   row-gap: 1.5rem;
+
+}
+
+#flow-text-1,
+#flow-text-2 {
+   width: 14rem;
+   text-align: center;
+}
+
+#flow-text-1 {
+   font-size: 1.5rem;
+   font-weight: bold;
+}

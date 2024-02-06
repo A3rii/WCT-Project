@@ -1,0 +1,89 @@
+
+/**5. Footer*/
+
+.footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 9rem;
+   width: 100%;
+   background-color: var(--dark);
+   color: var(--secondary);
+   font-family: 'Montserrat', sans-serif;
+}
+
+.footer-main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 6rem;
+   margin-top: 5rem;
+
+}
+
+.about,
+.resource,
+.follow {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   row-gap: 0.4rem;
+}
+
+.company-name span {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+#color-text {
+   color: var(--primary);
+}
+
+.footer-icon {
+   font-size: 2.5rem;
+   padding: 0.4rem;
+   color: var(--secondary);
+}
+
+.footer-icon i {
+   margin: 0 7px;
+}
+
+
+
+#footer-line {
+   width: 85%;
+   height: 0.1rem;
+   margin-top: 8rem;
+}
+
+.footer-end {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 5rem;
+   margin-bottom: 4rem;
+}
+
+.feedback {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#feedback-input {
+   padding: 0.7rem;
+   width: 15rem;
+   height: 2.3rem;
+   border: none;
+   border-radius: 5px 0 0 5px;
+}
+
+#submit-feedback {
+   border-radius: 0 5px 5px 0;
+}
+
+/**5 */

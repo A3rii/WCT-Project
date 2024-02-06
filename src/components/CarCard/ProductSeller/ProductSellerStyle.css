@@ -1,0 +1,100 @@
+.dealer-inventory {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.product-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.product-posted {
+   font-size: 24px;
+   font-family: "Monaco", sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5rem;
+}
+
+.display-product {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.card-buy-seller {
+   display: flex;
+   flex-direction: column;
+   margin: 4rem;
+   row-gap: 1rem;
+   width: 24rem;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 6px 6px 0 0;
+   border: none;
+   cursor: pointer;
+
+}
+
+
+.car-buy-seller {
+   padding: 1.7rem;
+}
+
+.card-title-seller {
+   font-size: 2rem;
+   font-family: "Montserrat", sans-serif;
+}
+
+.car-model-seller {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 1rem;
+
+}
+
+.car-make-seller {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 1rem;
+}
+
+
+.card-title-model-seller,
+.card-title-year-seller,
+.card-title-seller {
+   font-size: 1rem;
+   font-family: "Montserrat", sans-serif;
+}
+
+
+
+.card-title-seller {
+   margin-top: 0.5rem;
+}
+
+.card-buy-seller img {
+   border-radius: 5px 5px 0 0;
+   height: 15rem;
+}
+
+
+
+.type-card-seller {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.btn-addToFavorite-seller {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
